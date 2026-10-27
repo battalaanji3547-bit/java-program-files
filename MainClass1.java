@@ -1,0 +1,35 @@
+class InheritMultilevel { 
+    protected String str; 
+    
+    InheritMultilevel() { 
+        str = "j"; 
+    } 
+} 
+class SubClass1 extends InheritMultilevel { 
+    SubClass1() { 
+        
+        str = str.concat("A"); 
+    } 
+} 
+class SubClass2 extends SubClass1 { 
+    SubClass2() { 
+       
+        str = str.concat("V");
+    } 
+} 
+class SubClass3 extends SubClass2 { 
+    SubClass3() { 
+       
+        str = str.concat("A"); 
+    } 
+    
+    void display() { 
+        System.out.println(str); 
+    } 
+} 
+class MainClass1 { 
+    public static void main(String args[]) { 
+        SubClass3 obj = new SubClass3(); 
+        obj.display(); 
+    } 
+}

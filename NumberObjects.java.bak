@@ -1,0 +1,16 @@
+public class NumberObjects
+{
+	static int count=0;
+	NumberObjects()
+{
+		count++;
+}
+public static void main(String[]args)
+	{
+	NumberObject obj1=new NumberObjects();
+	NumberObject obj2=new NumberObjects();
+	NumberObject obj3=new NumberObjects();
+	NumberObject obj4=new NumberObjects();
+	System.out.println("Number of objects created:"+count);
+	}
+}

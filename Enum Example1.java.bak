@@ -1,0 +1,10 @@
+class Enum Example
+{
+	class Enum Example1
+	{
+		public Enum season{WINTER,SPRING,SUMMER,FALSS}
+		public static void main(String[]args)
+			for(season:season.values)
+			System.out.println(s)
+	}
+}

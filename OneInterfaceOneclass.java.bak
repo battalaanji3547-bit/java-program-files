@@ -1,0 +1,20 @@
+public  class OneInterfaceOneclass
+{
+	public static void main(String[]args)
+	{
+		shape circle shape=new circle();
+		circleshape.Draw();
+}
+}
+interface shape
+{
+	public String baseclass="shape";
+	public void Draw();
+}
+class circle implements shape
+{
+	public void Draw(0
+{
+		System.out.println("Drawing circle here");
+}
+}
